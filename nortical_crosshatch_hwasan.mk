@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/google/crosshatch/aosp_crosshatch.mk)
-PRODUCT_NAME := aosp_crosshatch_hwasan
+$(call inherit-product, device/google/crosshatch/nortical_crosshatch.mk)
+PRODUCT_NAME := nortical_crosshatch_hwasan
 
 # Add "hwaddress" as a global sanitizer if it's missing.
 ifeq ($(filter hwaddress,$(SANITIZE_TARGET)),)
