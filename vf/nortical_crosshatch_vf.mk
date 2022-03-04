@@ -30,4 +30,4 @@ PRODUCT_BUILD_VENDOR_BOOT_IMAGE := false
 
 $(call inherit-product, device/google/crosshatch/aosp_crosshatch.mk)
 
-PRODUCT_NAME := aosp_crosshatch_vf
+PRODUCT_NAME := nortical_crosshatch_vf
