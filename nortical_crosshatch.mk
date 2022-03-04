@@ -71,7 +71,7 @@ ifneq (REL,$(PLATFORM_VERSION_CODENAME))
 endif
 
 PRODUCT_MANUFACTURER := Google
-PRODUCT_NAME := aosp_crosshatch
+PRODUCT_NAME := nortical_crosshatch
 PRODUCT_DEVICE := crosshatch
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3 XL
