@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-# Makefile for the system-only partial build of aosp_crosshatch.
+# Makefile for the system-only partial build of nortical_crosshatch.
 # Used for creating a merged Vendor Freeze device.
 
 # Include VNDK v30, needed by the Android 11 vendor half.
@@ -28,6 +28,6 @@ PRODUCT_BUILD_VBMETA_IMAGE := false
 PRODUCT_BUILD_VENDOR_IMAGE := false
 PRODUCT_BUILD_VENDOR_BOOT_IMAGE := false
 
-$(call inherit-product, device/google/crosshatch/aosp_crosshatch.mk)
+$(call inherit-product, device/google/crosshatch/nortical_crosshatch.mk)
 
 PRODUCT_NAME := nortical_crosshatch_vf
