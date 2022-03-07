@@ -15,13 +15,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/posp_crosshatch.mk \
-    $(LOCAL_DIR)/posp_blueline.mk \
-    $(LOCAL_DIR)/posp_crosshatch_hwasan.mk \
-    $(LOCAL_DIR)/posp_blueline_hwasan.mk \
-    $(LOCAL_DIR)/vf/posp_crosshatch_vf.mk \
+    $(LOCAL_DIR)/potato_crosshatch.mk \
+    $(LOCAL_DIR)/potato_blueline.mk \
+    $(LOCAL_DIR)/potato_crosshatch_hwasan.mk \
+    $(LOCAL_DIR)/potato_blueline_hwasan.mk \
+    $(LOCAL_DIR)/vf/potato_crosshatch_vf.mk \
 
 COMMON_LUNCH_CHOICES := \
-    posp_crosshatch-userdebug \
-    posp_blueline-userdebug \
-    posp_crosshatch_vf-userdebug
+    potato_crosshatch-userdebug \
+    potato_blueline-userdebug \
+    potato_crosshatch_vf-userdebug
