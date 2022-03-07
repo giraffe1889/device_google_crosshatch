@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/google/crosshatch/nortical_blueline.mk)
-PRODUCT_NAME := nortical_blueline_hwasan
+$(call inherit-product, device/google/crosshatch/potato_blueline.mk)
+PRODUCT_NAME := potato_blueline_hwasan
 
 # Add "hwaddress" as a global sanitizer if it's missing.
 ifeq ($(filter hwaddress,$(SANITIZE_TARGET)),)
